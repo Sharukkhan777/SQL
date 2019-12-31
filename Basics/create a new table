@@ -1,0 +1,16 @@
+website : https://www.tutorialspoint.com/execute_sql_online.php
+
+/* Create a table called NAMES */
+CREATE TABLE NAMES(Id integer PRIMARY KEY, Name text, Marks integer);
+
+/* Create few records in this table */
+INSERT INTO NAMES VALUES(1,'Tom',24);
+INSERT INTO NAMES VALUES(2,'Lucy',24);
+INSERT INTO NAMES VALUES(3,'Frank',54);
+INSERT INTO NAMES VALUES(4,'Jane',90);
+INSERT INTO NAMES VALUES(5,'Robert',70);
+
+
+/* Display all the records from the table */
+SELECT * FROM NAMES;
+
